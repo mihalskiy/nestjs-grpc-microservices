@@ -13,7 +13,7 @@ services:
       - "db"
       - "cache"
     environment:
-      NODE_ENV: "__tests__"
+      NODE_ENV: "test"
       GRPC_HOST: "0.0.0.0"
       GRPC_PORT: "50051"
       DB_HOST: "db"

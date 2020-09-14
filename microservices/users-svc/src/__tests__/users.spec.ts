@@ -1,50 +1,18 @@
-/**
- * * Nest Modules
- */
 import { Test } from '@nestjs/testing'
 import { getConnection } from 'typeorm'
 
-/**
- * * Modules
- */
-
-
-
-/**
- * * Entities
- */
 import { User } from '../users/user.model'
-
-/**
- * * Services
- */
 import { UsersService } from '../users/users.service'
-
-/**
- * * DTOs
- */
 import { UserDto } from '../users/user.dto'
-
-/**
- * * Dependencies
- */
 import * as faker from 'faker'
 import {SequelizeModule} from "@nestjs/sequelize";
 import {LoggerModule} from "nestjs-pino";
 import {UsersController} from "../users/users.controller";
 import {AppModule} from "../app.module";
 
-/**
- * Test User Data
- */
 const testUsername = faker.internet.userName()
 const testEmail = faker.internet.email()
 const testAge = faker.random.number()
-
-
-/**
- * Test user object
- */
 const user: Partial<UserDto> = {
   name: testUsername,
   email: testEmail,
@@ -60,10 +28,7 @@ export interface IQuery {
   after?: string
 }
 
-/**
- * Posts integration tests
- */
-describe('Post Integration Tests', () => {
+describe('CRUD Tests', () => {
   let userService: UsersService
 
   beforeAll(async () => {
@@ -110,7 +75,7 @@ describe('Post Integration Tests', () => {
   })
 
   describe('Delete', () => {
-    it('should be able to delete a comment on a post', async () => {
+    it('should delete user', async () => {
       User.destroy({
         where: {},
         truncate: true
@@ -128,7 +93,7 @@ describe('Post Integration Tests', () => {
   })
 
   describe('Find', () => {
-    it('should be able to find all comments related to a post', async () => {
+    it('should find users', async () => {
       User.destroy({
         where: {},
         truncate: true
@@ -144,7 +109,7 @@ describe('Post Integration Tests', () => {
   })
 
   describe('Find One', () => {
-    it('should be able to find a specific comment', async () => {
+    it('should find user', async () => {
       User.destroy({
         where: {},
         truncate: true
@@ -161,13 +126,6 @@ describe('Post Integration Tests', () => {
     })
   })
 
-  /**
-   * after each __tests__, delete everything from users, comments and posts table
-   */
-
-  /**
-   * after all tests are done, delete everything from users, comments and posts table
-   */
   afterAll(async () => {
     const connection = getConnection()
 
