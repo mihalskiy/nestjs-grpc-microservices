@@ -1,0 +1,6 @@
+type Mutation {
+  # Users Mutations
+  createNewUser(data: UserInput!): UserPayload!
+  updateUser(id: ID!, data: UserInput!): UserPayload!
+  destroyUser(id: ID!): DeletePayload!
+}

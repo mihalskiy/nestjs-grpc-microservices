@@ -1,0 +1,6 @@
+type Query {
+  # Users Query
+  user(id: ID!): User!
+  users(q: String, first: Int, last: Int, before: String, after: String, filterBy: JSONObject, orderBy: String): UsersConnection
+  userCount(q: String, filterBy: JSONObject): Int!
+}

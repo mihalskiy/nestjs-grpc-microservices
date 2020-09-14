@@ -1,0 +1,4 @@
+type Subscription {
+  # User Subscription
+  userCreated(user: ID!): User!
+}

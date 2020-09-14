@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6171ef85-69e3-443d-b350-d819b596511d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/users/user.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/users/users-subscription.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/users-svc/src/__tests__/users.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_proto/comment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_proto/mailer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_proto/post.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/_proto/user.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/_proto/comment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/_proto/mailer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/_proto/post.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/_proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/_proto/user.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/auth.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/auth.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/gql-auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/jwt-refresh.strategy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/jwt.strategy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/refresh-auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/auth/user.decorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comment.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comments-mutation.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comments-query.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comments-subscription.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comments-type.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comments.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/comments/comments.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/commons/commons.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/commons/commons.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/playground-query.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/graphql/playground-query.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/_mutation.schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/graphql/schema/_mutation.schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/_query.schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/graphql/schema/_query.schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/_subscription.schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/graphql/schema/_subscription.schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/comment.schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/commons.schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/post.schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/schema/user.schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/graphql/schema/user.schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/graphql/typings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/graphql/typings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/post.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/posts-mutation.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/posts-query.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/posts-subscription.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/posts-type.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/posts.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/posts/posts.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/users/user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/users/user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/users/users-mutation.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/users/users-mutation.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/users/users-query.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/users/users-query.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/users/users-type.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/users/users-type.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/users/users.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/users/users.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/utils/password.utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/utils/utils.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/utils/utils.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/archi-diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/graph-model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/proto/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/api-gateway.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/comments-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/database.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/jwt.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/posts-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/smtp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/configuration/users-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/services/api-gateway.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/services/comments-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/services/mailer-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/services/posts-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/services/users-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/workloads/api-gateway.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/workloads/comments-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/workloads/mailer-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/workloads/posts-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/workloads/users-svc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/.eslintrc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/_proto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/_proto/comment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/_proto/commons.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/_proto/mailer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/_proto/post.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/_proto/user.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/comments/comment.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/comments/comment.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/comments/comments.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/comments/comments.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/comments/comments.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/comments/comments.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/commons/commons.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/commons/cursor-pagination.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/commons/find-and-paginate.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/comments-svc/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/.eslintrc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/_proto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/_proto/comment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/_proto/commons.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/_proto/mailer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/_proto/post.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/_proto/user.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/mailer/mailer.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/mailer/mailer.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/mailer/mailer.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/templates/new-comment.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/templates/signup.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/templates/update-email.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/src/templates/update-password.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailer-svc/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/.eslintrc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/_proto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/_proto/comment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/_proto/commons.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/_proto/mailer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/_proto/post.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/_proto/user.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/commons/commons.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/commons/cursor-pagination.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/commons/find-and-paginate.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/posts/post.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/posts/post.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/posts/posts.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/posts/posts.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/posts/posts.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/src/posts/posts.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/posts-svc/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/_proto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/_proto/comment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/_proto/mailer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/_proto/post.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/_proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/_proto/user.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/commons/find-and-paginate.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/commons/find-and-paginate.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/users/user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/users/user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/users/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/users/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/users/users.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/users/users.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/src/users/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/users-svc/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/users-svc/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/lint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/lint.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hGv9slfghgQzapWfEwcW1Zd2MM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/microservices/users-svc/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/api-gateway/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservices/users-svc/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/microservices/users-svc/src/_proto" />
+      <recent name="$PROJECT_DIR$/_proto" />
+      <recent name="$PROJECT_DIR$/microservices/comments-svc" />
+      <recent name="$PROJECT_DIR$/microservices/mailer-svc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docker:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker:start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docker:start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker:teardown" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docker:teardown" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.docker:start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.docker:build" />
+        <item itemvalue="npm.docker:teardown" />
+        <item itemvalue="npm.start:dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6171ef85-69e3-443d-b350-d819b596511d" name="Default Changelist" comment="" />
+      <created>1599650096841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599650096841</updated>
+      <workItem from="1599650099339" duration="14150000" />
+      <workItem from="1599732864483" duration="13918000" />
+      <workItem from="1599826867590" duration="11468000" />
+      <workItem from="1599852446208" duration="340000" />
+      <workItem from="1599861000222" duration="4170000" />
+      <workItem from="1599902935880" duration="27196000" />
+      <workItem from="1600021716511" duration="5104000" />
+      <workItem from="1600028809165" duration="14554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599996224289">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="447" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1599996224289" />
+    <state x="571" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600040118512">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="571" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1600040118512" />
+    <state width="877" height="466" key="DebuggerActiveHint" timestamp="1600038177095">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="877" height="466" key="DebuggerActiveHint/0.23.1440.826@0.23.1440.826" timestamp="1600038177095" />
+    <state x="658" y="211" key="FileChooserDialogImpl" timestamp="1599997220082">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="658" y="211" key="FileChooserDialogImpl/0.23.1440.826@0.23.1440.826" timestamp="1599997220082" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1600044157153">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1600044157153" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1600044157152">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1600044157152" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1600044157151">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1600044157151" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1600044157152">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1600044157152" />
+    <state width="1168" height="256" key="GridCell.Tab.1.bottom" timestamp="1600038590284">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1600038590284" />
+    <state width="1168" height="256" key="GridCell.Tab.1.center" timestamp="1600038590284">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1600038590284" />
+    <state width="1168" height="256" key="GridCell.Tab.1.left" timestamp="1600038590283">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1600038590283" />
+    <state width="1168" height="256" key="GridCell.Tab.1.right" timestamp="1600038590284">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1600038590284" />
+    <state width="1168" height="256" key="GridCell.Tab.2.bottom" timestamp="1600038590285">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.2.bottom/0.23.1440.826@0.23.1440.826" timestamp="1600038590285" />
+    <state width="1168" height="256" key="GridCell.Tab.2.center" timestamp="1600038590285">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.2.center/0.23.1440.826@0.23.1440.826" timestamp="1600038590285" />
+    <state width="1168" height="256" key="GridCell.Tab.2.left" timestamp="1600038590284">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.2.left/0.23.1440.826@0.23.1440.826" timestamp="1600038590284" />
+    <state width="1168" height="256" key="GridCell.Tab.2.right" timestamp="1600038590285">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.2.right/0.23.1440.826@0.23.1440.826" timestamp="1600038590285" />
+    <state width="1168" height="256" key="GridCell.Tab.3.bottom" timestamp="1600038590286">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.3.bottom/0.23.1440.826@0.23.1440.826" timestamp="1600038590286" />
+    <state width="1168" height="256" key="GridCell.Tab.3.center" timestamp="1600038590285">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.3.center/0.23.1440.826@0.23.1440.826" timestamp="1600038590285" />
+    <state width="1168" height="256" key="GridCell.Tab.3.left" timestamp="1600038590285">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.3.left/0.23.1440.826@0.23.1440.826" timestamp="1600038590285" />
+    <state width="1168" height="256" key="GridCell.Tab.3.right" timestamp="1600038590286">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1168" height="256" key="GridCell.Tab.3.right/0.23.1440.826@0.23.1440.826" timestamp="1600038590286" />
+    <state x="443" y="145" key="RollbackChangesDialog" timestamp="1600039798561">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="443" y="145" key="RollbackChangesDialog/0.23.1440.826@0.23.1440.826" timestamp="1600039798561" />
+    <state x="344" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599864250069">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="344" y="54" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.826@0.23.1440.826" timestamp="1599864250069" />
+    <state x="780" y="225" width="604" height="490" key="find.popup" timestamp="1600043281459">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="780" y="225" width="604" height="490" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1600043281459" />
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1599992449865">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1599992449865" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/microservices/users-svc/src/users/users.controller.ts</url>
+          <line>85</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

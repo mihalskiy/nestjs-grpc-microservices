@@ -1,0 +1,47 @@
+type User {
+  id: ID!
+  name: String!
+  email: EmailAddress!
+  age: Int
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  version: Int!
+}
+
+type UsersConnection {
+  edges: [UserEdge!]!
+  pageInfo: PageInfo!
+}
+
+type PageInfo {
+  startCursor: String!
+  endCursor: String!
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+}
+
+type UserEdge {
+  node: User!
+  cursor: String!
+}
+
+type ErrorPayload {
+	field: String
+	message: [String]
+}
+
+type UserPayload {
+  errors: [ErrorPayload]
+  user: User
+}
+
+type DeletePayload {
+  errors: [ErrorPayload]
+  count: Int
+}
+
+input UserInput {
+  name: String!
+  email: EmailAddress!
+  age: UnsignedInt
+}
